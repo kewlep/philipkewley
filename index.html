@@ -43,9 +43,10 @@
 	
 	<!-- hide email address script -->
 <script>
-    var email = document.getElementById("hidden-email");
+    var email = document.getElementById("email");
+    email.innerHTML = "Click here to reveal email";
     email.addEventListener("click", function() {
-        email.style.display = "inline";
+        email.innerHTML = "kewlep@gmail.com";
     });
 </script>
 	<!-- END hide email address script -->
@@ -440,7 +441,7 @@
 		    <p>Email; 
 		    
 		    
-			<p id="email">kewlep<span id='hidden-email' style="display:none">kewlep@gmail.com</span></p>
+			<p id="email"></p>
             <p>    or message me via <a href="https://www.linkedin.com/in/philipkewley/">LinkedIn</a></p>
             </div><!-- end title -->
 
