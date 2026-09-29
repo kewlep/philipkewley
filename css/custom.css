@@ -1,3 +1,10 @@
+.experience-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 0 0 1.5em 0;
+}
+
 .experience-pills span {
     display: inline-block;
     background: #000;
@@ -14,3 +21,4 @@
     background: #333;
     transform: translateY(-1px);
 }
+
