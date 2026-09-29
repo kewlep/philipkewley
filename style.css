@@ -2469,6 +2469,13 @@ select.mobile-device {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.experience-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 0 0 1.5em 0;
+}
+
 .experience-pills span {
     display: inline-block;
     background: #000;
