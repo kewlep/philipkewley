@@ -21,4 +21,11 @@
     background: #333;
     transform: translateY(-1px);
 }
-
+@media (max-width: 768px) {
+    #home.main-banner {
+        background-image: url('../uploads/banner-01.jpg') !important;
+        background-size: cover !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+    }
+}
